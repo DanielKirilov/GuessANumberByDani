@@ -15,7 +15,7 @@ let recursiveAsyncReadLine = function () { // creating level 1
         let guess = Number(number);
         if (100 >= guess && guess >= 0) {
             if (guess === computerGuess) { // if you guess correctly
-                console.log("That's right! It's too ez! You are the champion! Excellent !!!");
+                console.log("That's right! It's too easy! You are the champion! Excellent !!!");
                 console.log("Congrats you have reached Level 2! Good Luck!");
                 return recursiveAsyncReadLine2()
 
@@ -43,7 +43,7 @@ let recursiveAsyncReadLine2 = function () { // creating level 2
         if (200 >= guess2 && guess2 >= 0) {
 
             if (guess2 === computerGuess2) { // if you guess correctly
-                console.log("That's right! It's too ez! You are the champion! Excellent !!!");
+                console.log("That's right! It's too easy! You are the champion! Excellent !!!");
                 console.log("Congrats you have reached Level 3! Good Luck! ");
                 return recursiveAsyncReadLine3()
 
@@ -74,7 +74,7 @@ let recursiveAsyncReadLine3 = function () { // creating level 3
         if (300 >= guess3 && guess3 >= 0) {
 
             if (guess3 === computerGuess3) { // if you guess correctly
-                console.log("That's right! It's too ez! You are the champion! Excellent !!!");
+                console.log("That's right! It's too easy! You are the champion! Excellent !!!");
                 console.log("You just won the game!! You are amazing!");
                 return readline.close();
 
