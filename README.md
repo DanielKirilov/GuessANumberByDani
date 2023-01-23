@@ -1,6 +1,6 @@
 # GuessANumberByDani
 This is a simple console game called "Guess a Number".  The computer chooses a random number and your job is to guess it!
-** In this game your goal is to guess the randomly selected number by your enemy (the computer). There are 3 levels:
+ In this game your goal is to guess the randomly selected number by your enemy (the computer). There are 3 levels:
 > 1️⃣ The First one (1 - 100); 
 > 2️⃣ The Second one (1 - 200); 
 > 3️⃣ The Third one (1-300). 
